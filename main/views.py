@@ -17,7 +17,7 @@ def upload_view(request):
     else:
         form = ImageForm()
 
-    return render(request, 'upload-template.html', {'form': form})
+    return render(request, 'upload.html', {'form': form})
 
 
 def result_view(request):
